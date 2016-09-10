@@ -1,4 +1,7 @@
 <?php
+//Error Reporting
+error_reporting(0);
+
 
 $set = array(
 	'site_name' => 'PWCraft WebStats',
