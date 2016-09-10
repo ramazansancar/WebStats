@@ -41,10 +41,10 @@
 	      <thead>
 	        <tr>
 	          <th>#</th>
-	          <th>Oyuncu</th>
-	          <th>Öldürme</th>
-	          <?php echo ($set["mob_kill"] == "1") ? "<th>Mob Öldürme</th>" : null ; ?>
-	          <th>Ölüm</th>
+	          <th>Player</th>
+	          <th>Kills</th>
+	          <?php echo ($set["mob_kill"] == "1") ? "<th>Mob Kills</th>" : null ; ?>
+	          <th>Deaths</th>
 	        </tr>
 	      </thead>
 	      <tbody>
