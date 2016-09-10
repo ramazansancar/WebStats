@@ -1,7 +1,4 @@
 <?php
-//Error Reporting
-error_reporting(0);
-
 
 $set = array(
 	'site_name' => 'PWCraft WebStats',
@@ -19,6 +16,9 @@ $set = array(
 #######################
 ## Database Settings ##
 #######################
+
+//Error Reporting
+error_reporting(0);
 
 $host = $set["mysql"]["host"];
 $username = $set["mysql"]["username"];
